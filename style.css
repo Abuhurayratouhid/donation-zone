@@ -20,6 +20,27 @@ body {
     justify-content: center;
 }
 
+#start {
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#center {
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+span {
+    color: tomato;
+
+}
+
 .small-box {
     border-radius: 5px;
 
@@ -27,6 +48,17 @@ body {
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.084);
 }
+
+.small-box-two {
+    display: flex;
+    text-align: center;
+    margin: 5%;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.226);
+    padding: 5%;
+    padding-left: 160px;
+    border-radius: 20px;
+}
+
 
 #red-border {
     border: 3px solid tomato;
@@ -66,6 +98,8 @@ body {
 }
 
 footer {
+    font-family: 'Gulzar', serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     background-color: black;
     height: 200px;
